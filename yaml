@@ -1,0 +1,9 @@
+## 🔧 Setup Instructions
+
+### 🖥️ Prerequisites
+- Python 3.8+
+- MySQL installed locally or via Docker
+- MySQL user: `root`, password: `pass`, database: `api_project`
+- Python dependencies installed via:
+  ```bash
+  pip install -r requirements.txt
