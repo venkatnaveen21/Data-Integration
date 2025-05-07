@@ -48,3 +48,20 @@ We are using the free, public API provided by [JSONPlaceholder](https://jsonplac
 ---
 
 ## 🗂 Project Structure
+api-to-mysql-etl/
+├── data/ # Stores input/output data files
+│ ├── raw_users.json # Raw data fetched from API
+│ └── transformed_users.csv # Cleaned, structured CSV data
+│
+├── scripts/ # Python ETL scripts
+│ ├── fetch_data.py # Extract data from API and save to JSON
+│ ├── transform_data.py # Transform and flatten JSON to CSV
+│ └── load_to_db.py # Load CSV into MySQL database
+│
+├── config/ # Configuration files
+│ └── db_config.yaml (optional) # DB connection details (used if enabled)
+│
+├── requirements.txt # Required Python packages
+├── README.md # Project documentation
+└── .gitignore # File exclusions for Git
+
