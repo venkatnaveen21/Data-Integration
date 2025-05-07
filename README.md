@@ -44,6 +44,8 @@ ETL stands for **Extract, Transform, Load**:
 ## 🔗 Data Source
 
 We are using the free, public API provided by [JSONPlaceholder](https://jsonplaceholder.typicode.com/users), which returns mock user data in JSON format.
+<img width="884" alt="Raw" src="https://github.com/user-attachments/assets/5096e75b-cfc3-472d-9784-fa4b5930ebbe" />
+
 
 ---
 
@@ -65,3 +67,5 @@ api-to-mysql-etl/
 ├── README.md # Project documentation
 └── .gitignore # File exclusions for Git
 
+<img width="844" alt="Transformed" src="https://github.com/user-attachments/assets/d732e667-7d99-44dc-984d-e8cb5ff66434" />
+<img width="551" alt="Result" src="https://github.com/user-attachments/assets/b2a97cb7-d6b7-4624-b0d7-cc7b29f3e2e7" />
